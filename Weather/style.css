@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card .card-content{
+    padding: 51px;
+}
+.formInput{
+    display: block;
+}
+.card-image{
+    /* width: 586px; */
+    size: cover;
+    background-repeat: no-repeat;
+    
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class='container'>
+            <div class='Weather-card'>
+                <div class="col s12 m7 l6">
+                    <div class="card">
+                        <div class="card-image" >
+                                <img src="http://gdurl.com/ClyA" alt="" id="weatherImg">
+                            <span class="card-title">Weather App</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Find Your City Weather</p>
+                            <div class='FormInput'>
+                                <input type="text" id='inp' placeholder="Enter City Name">
+                                <button id='btn' class='waves-effect waves-light btn material-icons left cloud'>Submit</button>
+                            </div>
+                            <div class="card-tabs" id='result'>
+                                <ul class="tabs tabs-fixed-width">
+                                    <li class="tab"><a class="active" href="#descrip">description</a></li>
+                                    <li class="tab"><a href="#humidity">Humidity</a></li>
+                                    <li class="tab"><a href="#minTemp">Minimum</a></li>
+                                    <li class="tab"><a href="#maxTemp">Maximum</a></li>
+                                </ul>
+                            
+                            <div class="card-content grey lighten-4">
+                                <div id="descrip">
+                                    <img src="" alt="" id="icon">
+                                    <div id="description">
+                                    </div>
+                                </div>
+                                <div id="humidity"></div>
+                                <div id="minTemp"></div>
+                                <div id="maxTemp"></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
