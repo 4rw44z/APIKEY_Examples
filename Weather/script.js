@@ -48,46 +48,46 @@ $(document).ready(function(){
                 
                     case 'Clear':
                     case 'Clear sky':
-                    weatherImg.attr('src', "http://gdurl.com/XcJs");
+                    weatherImg.attr('src', "https://i.ibb.co/80NCwsn/Clear.jpg");
                     break;
                     
                     case 'Clouds':
                     case 'Few clouds':
                     case 'Broken clouds':
                     case 'Scattered clouds':
-                    weatherImg.attr('src', "http://gdurl.com/R2WH");
+                    weatherImg.attr('src', "https://i.ibb.co/PTLjQX9/Cloudy.jpg");
                     break;
                     
                     case 'Rain':
                     case 'Shower rain':
-                    weatherImg.attr('src', "http://gdurl.com/yMvx");
+                    weatherImg.attr('src', "https://i.ibb.co/1btqw2R/Rain.jpg");
                     break;
                     
                     case 'Snow':
-                    weatherImg.attr('src',"http://gdurl.com/xImC");
+                    weatherImg.attr('src',"https://i.ibb.co/9rz52Fk/Snow.jpg");
                     break;
 
                     case 'Storm':
                     case 'Thunderstorm':
-                    weatherImg.attr('src',"http://gdurl.com/3X2i");
+                    weatherImg.attr('src',"https://i.ibb.co/dgwN8T9/Storm.jpg");
                     break;
                     
                     case 'Mist':
-                    weatherImg.attr('src',"http://gdurl.com/IG-L");
+                    weatherImg.attr('src',"https://i.ibb.co/bjtnpq9/Mist.jpg");
                     break;
                     
                     case 'Smoke':
-                    weatherImg.attr('src', "http://gdurl.com/qZYF");
+                    weatherImg.attr('src', "https://i.ibb.co/7JhG6dt/Smoke.jpg");
                     break;
 
                     case 'Haze':
-                    weatherImg.attr('src', "http://gdurl.com/BMrN");
+                    weatherImg.attr('src', "https://i.ibb.co/9YBCGhx/Haze.jpg");
                     break;
                     case 'Fog':
-                    weatherImg.attr('src', "http://gdurl.com/aYVT");
+                    weatherImg.attr('src', "https://i.ibb.co/51kQXRR/rory-bjorkman-17135-unsplash.jpg");
                     break;
                     default:
-                    weatherImg.attr('src', "http://gdurl.com/ClyA");
+                    weatherImg.attr('src', "https://i.ibb.co/nMd9wxf/Default.jpg");
                     // console.log(weatherdata.weather[0].main);
                     // console.log(logo);
                     break;
