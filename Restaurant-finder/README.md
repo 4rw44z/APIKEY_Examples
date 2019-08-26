@@ -1,6 +1,6 @@
-# Yellow (restaurant-finder)
+# Quasar App (restaurant-finder)
 
-Restaurant Finder app
+A Quasar Framework app
 
 ## Install the dependencies
 ```bash
@@ -12,10 +12,6 @@ npm install
 quasar dev
 ```
 
-### Lint the files
-```bash
-npm run lint
-```
 
 ### Build the app for production
 ```bash
