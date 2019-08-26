@@ -17,18 +17,21 @@
       </q-tabs> -->
     </q-header>
     <q-page-container>
-      <Search />
+      <LocationContainer />
+      <SearchContainer />
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
 import { QRouteTab, openURL,QAvatar } from 'quasar'
-import Search from '../components/Search.vue';
+import SearchContainer from '../components/SearchContainer.vue';
+import LocationContainer from '../components/LocationContainer.vue';
 export default {
   name: 'MyLayout',
   components:{
-    Search,
+    SearchContainer,
+    LocationContainer,
     QRouteTab,
     QAvatar
 
